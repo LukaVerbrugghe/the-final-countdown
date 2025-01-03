@@ -36,6 +36,24 @@ namespace prjFinalCountdown
             lblTotalMinutes.Text = "That is " + Math.Floor(timeUntilEndOfYear.TotalMinutes).ToString() + " minutes";
             //dispay total number of hours
             lblTotalHours.Text = "That is " + Math.Floor(timeUntilEndOfYear.TotalHours).ToString() + " hours";
+
+
+            //calculate time until other date (krokusvakantie)
+            DateTime otherDate = new DateTime(2025, 3, 3);
+            TimeSpan timeUntilOtherDate = otherDate - today;
+            //display time until other date
+            lblLabel2.Text = "There are " + timeUntilOtherDate.Days + " days left until Krokusvakantie.";
+
+            //display as countdown
+            lblHoursMinutesSeconds2.Text = "That is " + timeUntilOtherDate.Days.ToString() + " days and " + timeUntilOtherDate.Hours.ToString() + ":" + timeUntilOtherDate.Minutes.ToString() + ":" + timeUntilOtherDate.Seconds.ToString();
+
+            //display total number of seconds
+            lblSeconds2.Text = "That is " + Math.Floor(timeUntilOtherDate.TotalSeconds).ToString() + " seconds";
+            //display total number of minutes
+            lblMinutes2.Text = "That is " + Math.Floor(timeUntilOtherDate.TotalMinutes).ToString() + " minutes";
+            //dispay total number of hours
+            lblHours2.Text = "That is " + Math.Floor(timeUntilOtherDate.TotalHours).ToString() + " hours";
+
         }
     }
 }

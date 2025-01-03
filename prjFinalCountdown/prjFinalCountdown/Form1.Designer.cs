@@ -35,6 +35,11 @@
             this.lblTotalSeconds = new System.Windows.Forms.Label();
             this.lblTotalMinutes = new System.Windows.Forms.Label();
             this.lblTotalHours = new System.Windows.Forms.Label();
+            this.lblLabel2 = new System.Windows.Forms.Label();
+            this.lblHoursMinutesSeconds2 = new System.Windows.Forms.Label();
+            this.lblSeconds2 = new System.Windows.Forms.Label();
+            this.lblMinutes2 = new System.Windows.Forms.Label();
+            this.lblHours2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblLAbel
@@ -92,15 +97,70 @@
             this.lblTotalHours.TabIndex = 0;
             this.lblTotalHours.Text = "label1";
             // 
+            // lblLabel2
+            // 
+            this.lblLabel2.AutoSize = true;
+            this.lblLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLabel2.Location = new System.Drawing.Point(12, 227);
+            this.lblLabel2.Name = "lblLabel2";
+            this.lblLabel2.Size = new System.Drawing.Size(92, 32);
+            this.lblLabel2.TabIndex = 0;
+            this.lblLabel2.Text = "label1";
+            // 
+            // lblHoursMinutesSeconds2
+            // 
+            this.lblHoursMinutesSeconds2.AutoSize = true;
+            this.lblHoursMinutesSeconds2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHoursMinutesSeconds2.Location = new System.Drawing.Point(12, 259);
+            this.lblHoursMinutesSeconds2.Name = "lblHoursMinutesSeconds2";
+            this.lblHoursMinutesSeconds2.Size = new System.Drawing.Size(92, 32);
+            this.lblHoursMinutesSeconds2.TabIndex = 0;
+            this.lblHoursMinutesSeconds2.Text = "label1";
+            // 
+            // lblSeconds2
+            // 
+            this.lblSeconds2.AutoSize = true;
+            this.lblSeconds2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSeconds2.Location = new System.Drawing.Point(12, 308);
+            this.lblSeconds2.Name = "lblSeconds2";
+            this.lblSeconds2.Size = new System.Drawing.Size(92, 32);
+            this.lblSeconds2.TabIndex = 0;
+            this.lblSeconds2.Text = "label1";
+            // 
+            // lblMinutes2
+            // 
+            this.lblMinutes2.AutoSize = true;
+            this.lblMinutes2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMinutes2.Location = new System.Drawing.Point(12, 340);
+            this.lblMinutes2.Name = "lblMinutes2";
+            this.lblMinutes2.Size = new System.Drawing.Size(92, 32);
+            this.lblMinutes2.TabIndex = 0;
+            this.lblMinutes2.Text = "label1";
+            // 
+            // lblHours2
+            // 
+            this.lblHours2.AutoSize = true;
+            this.lblHours2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHours2.Location = new System.Drawing.Point(12, 372);
+            this.lblHours2.Name = "lblHours2";
+            this.lblHours2.Size = new System.Drawing.Size(92, 32);
+            this.lblHours2.TabIndex = 0;
+            this.lblHours2.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 201);
+            this.ClientSize = new System.Drawing.Size(634, 411);
+            this.Controls.Add(this.lblHours2);
             this.Controls.Add(this.lblTotalHours);
+            this.Controls.Add(this.lblMinutes2);
             this.Controls.Add(this.lblTotalMinutes);
+            this.Controls.Add(this.lblSeconds2);
             this.Controls.Add(this.lblTotalSeconds);
+            this.Controls.Add(this.lblHoursMinutesSeconds2);
             this.Controls.Add(this.lblHoursMinutesSeconds);
+            this.Controls.Add(this.lblLabel2);
             this.Controls.Add(this.lblLAbel);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -117,6 +177,11 @@
         private System.Windows.Forms.Label lblTotalSeconds;
         private System.Windows.Forms.Label lblTotalMinutes;
         private System.Windows.Forms.Label lblTotalHours;
+        private System.Windows.Forms.Label lblLabel2;
+        private System.Windows.Forms.Label lblHoursMinutesSeconds2;
+        private System.Windows.Forms.Label lblSeconds2;
+        private System.Windows.Forms.Label lblMinutes2;
+        private System.Windows.Forms.Label lblHours2;
     }
 }
 
