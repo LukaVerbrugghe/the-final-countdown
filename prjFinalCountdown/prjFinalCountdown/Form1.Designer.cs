@@ -46,9 +46,10 @@
             // 
             this.lblLAbel.AutoSize = true;
             this.lblLAbel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLAbel.Location = new System.Drawing.Point(12, 9);
+            this.lblLAbel.Location = new System.Drawing.Point(9, 7);
+            this.lblLAbel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLAbel.Name = "lblLAbel";
-            this.lblLAbel.Size = new System.Drawing.Size(92, 32);
+            this.lblLAbel.Size = new System.Drawing.Size(70, 26);
             this.lblLAbel.TabIndex = 0;
             this.lblLAbel.Text = "label1";
             // 
@@ -56,9 +57,10 @@
             // 
             this.lblHoursMinutesSeconds.AutoSize = true;
             this.lblHoursMinutesSeconds.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoursMinutesSeconds.Location = new System.Drawing.Point(12, 41);
+            this.lblHoursMinutesSeconds.Location = new System.Drawing.Point(9, 33);
+            this.lblHoursMinutesSeconds.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHoursMinutesSeconds.Name = "lblHoursMinutesSeconds";
-            this.lblHoursMinutesSeconds.Size = new System.Drawing.Size(92, 32);
+            this.lblHoursMinutesSeconds.Size = new System.Drawing.Size(70, 26);
             this.lblHoursMinutesSeconds.TabIndex = 0;
             this.lblHoursMinutesSeconds.Text = "label1";
             // 
@@ -71,9 +73,10 @@
             // 
             this.lblTotalSeconds.AutoSize = true;
             this.lblTotalSeconds.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalSeconds.Location = new System.Drawing.Point(12, 90);
+            this.lblTotalSeconds.Location = new System.Drawing.Point(9, 73);
+            this.lblTotalSeconds.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTotalSeconds.Name = "lblTotalSeconds";
-            this.lblTotalSeconds.Size = new System.Drawing.Size(92, 32);
+            this.lblTotalSeconds.Size = new System.Drawing.Size(70, 26);
             this.lblTotalSeconds.TabIndex = 0;
             this.lblTotalSeconds.Text = "label1";
             // 
@@ -81,9 +84,10 @@
             // 
             this.lblTotalMinutes.AutoSize = true;
             this.lblTotalMinutes.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalMinutes.Location = new System.Drawing.Point(12, 122);
+            this.lblTotalMinutes.Location = new System.Drawing.Point(9, 99);
+            this.lblTotalMinutes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTotalMinutes.Name = "lblTotalMinutes";
-            this.lblTotalMinutes.Size = new System.Drawing.Size(92, 32);
+            this.lblTotalMinutes.Size = new System.Drawing.Size(70, 26);
             this.lblTotalMinutes.TabIndex = 0;
             this.lblTotalMinutes.Text = "label1";
             // 
@@ -91,9 +95,10 @@
             // 
             this.lblTotalHours.AutoSize = true;
             this.lblTotalHours.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalHours.Location = new System.Drawing.Point(12, 154);
+            this.lblTotalHours.Location = new System.Drawing.Point(9, 125);
+            this.lblTotalHours.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTotalHours.Name = "lblTotalHours";
-            this.lblTotalHours.Size = new System.Drawing.Size(92, 32);
+            this.lblTotalHours.Size = new System.Drawing.Size(70, 26);
             this.lblTotalHours.TabIndex = 0;
             this.lblTotalHours.Text = "label1";
             // 
@@ -101,9 +106,10 @@
             // 
             this.lblLabel2.AutoSize = true;
             this.lblLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLabel2.Location = new System.Drawing.Point(12, 227);
+            this.lblLabel2.Location = new System.Drawing.Point(9, 184);
+            this.lblLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLabel2.Name = "lblLabel2";
-            this.lblLabel2.Size = new System.Drawing.Size(92, 32);
+            this.lblLabel2.Size = new System.Drawing.Size(70, 26);
             this.lblLabel2.TabIndex = 0;
             this.lblLabel2.Text = "label1";
             // 
@@ -111,9 +117,10 @@
             // 
             this.lblHoursMinutesSeconds2.AutoSize = true;
             this.lblHoursMinutesSeconds2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoursMinutesSeconds2.Location = new System.Drawing.Point(12, 259);
+            this.lblHoursMinutesSeconds2.Location = new System.Drawing.Point(9, 210);
+            this.lblHoursMinutesSeconds2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHoursMinutesSeconds2.Name = "lblHoursMinutesSeconds2";
-            this.lblHoursMinutesSeconds2.Size = new System.Drawing.Size(92, 32);
+            this.lblHoursMinutesSeconds2.Size = new System.Drawing.Size(70, 26);
             this.lblHoursMinutesSeconds2.TabIndex = 0;
             this.lblHoursMinutesSeconds2.Text = "label1";
             // 
@@ -121,9 +128,10 @@
             // 
             this.lblSeconds2.AutoSize = true;
             this.lblSeconds2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeconds2.Location = new System.Drawing.Point(12, 308);
+            this.lblSeconds2.Location = new System.Drawing.Point(9, 250);
+            this.lblSeconds2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSeconds2.Name = "lblSeconds2";
-            this.lblSeconds2.Size = new System.Drawing.Size(92, 32);
+            this.lblSeconds2.Size = new System.Drawing.Size(70, 26);
             this.lblSeconds2.TabIndex = 0;
             this.lblSeconds2.Text = "label1";
             // 
@@ -131,9 +139,10 @@
             // 
             this.lblMinutes2.AutoSize = true;
             this.lblMinutes2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMinutes2.Location = new System.Drawing.Point(12, 340);
+            this.lblMinutes2.Location = new System.Drawing.Point(9, 276);
+            this.lblMinutes2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMinutes2.Name = "lblMinutes2";
-            this.lblMinutes2.Size = new System.Drawing.Size(92, 32);
+            this.lblMinutes2.Size = new System.Drawing.Size(70, 26);
             this.lblMinutes2.TabIndex = 0;
             this.lblMinutes2.Text = "label1";
             // 
@@ -141,17 +150,18 @@
             // 
             this.lblHours2.AutoSize = true;
             this.lblHours2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHours2.Location = new System.Drawing.Point(12, 372);
+            this.lblHours2.Location = new System.Drawing.Point(9, 302);
+            this.lblHours2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblHours2.Name = "lblHours2";
-            this.lblHours2.Size = new System.Drawing.Size(92, 32);
+            this.lblHours2.Size = new System.Drawing.Size(70, 26);
             this.lblHours2.TabIndex = 0;
             this.lblHours2.Text = "label1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 411);
+            this.ClientSize = new System.Drawing.Size(476, 334);
             this.Controls.Add(this.lblHours2);
             this.Controls.Add(this.lblTotalHours);
             this.Controls.Add(this.lblMinutes2);
@@ -162,8 +172,10 @@
             this.Controls.Add(this.lblHoursMinutesSeconds);
             this.Controls.Add(this.lblLabel2);
             this.Controls.Add(this.lblLAbel);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

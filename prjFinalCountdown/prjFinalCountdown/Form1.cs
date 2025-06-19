@@ -39,10 +39,10 @@ namespace prjFinalCountdown
 
 
             //calculate time until other date (krokusvakantie)
-            DateTime otherDate = new DateTime(2025, 3, 3);
+            DateTime otherDate = new DateTime(2025, 9, 15);
             TimeSpan timeUntilOtherDate = otherDate - today;
             //display time until other date
-            lblLabel2.Text = "There are " + timeUntilOtherDate.Days + " days left until Krokusvakantie.";
+            lblLabel2.Text = "There are " + timeUntilOtherDate.Days + " days left until Howest.";
 
             //display as countdown
             lblHoursMinutesSeconds2.Text = "That is " + timeUntilOtherDate.Days.ToString() + " days and " + timeUntilOtherDate.Hours.ToString() + ":" + timeUntilOtherDate.Minutes.ToString() + ":" + timeUntilOtherDate.Seconds.ToString();
@@ -53,6 +53,11 @@ namespace prjFinalCountdown
             lblMinutes2.Text = "That is " + Math.Floor(timeUntilOtherDate.TotalMinutes).ToString() + " minutes";
             //dispay total number of hours
             lblHours2.Text = "That is " + Math.Floor(timeUntilOtherDate.TotalHours).ToString() + " hours";
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
